@@ -66,7 +66,7 @@ export class OlympicsService {
         const csvContent = [
           headers.join(','),
           ...medalsData.map((medal, index) => 
-            `${index + 1},${medal.country},${medal.gold},${medal.silver},${medal.bronze},${medal.total}`
+            `${index + 1},${medal.code},${medal.gold},${medal.silver},${medal.bronze},${medal.total}`
           )
         ].join('\n');
         
