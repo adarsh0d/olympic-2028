@@ -1,0 +1,54 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "language": "Language",
+    "settings": "Settings"
+  },
+  "medals": {
+    "title": "Olympic Medals Table",
+    "description": "Click on column headers to sort by medal type. Default sort is by gold medals in descending order.",
+    "rank": "Rank",
+    "country": "Country",
+    "gold": "Gold",
+    "silver": "Silver",
+    "bronze": "Bronze",
+    "total": "Total",
+    "sortBy": "Sort by {type}",
+    "sortDirection": {
+      "asc": "ascending",
+      "desc": "descending"
+    },
+    "noData": "No medals data available",
+    "loadingMessage": "Loading Olympic medals data...",
+    "errorMessage": "Error retrieving medals data. Please try again later.",
+    "retryMessage": "Click to retry loading medals data"
+  },
+  "navigation": {
+    "home": "Home",
+    "medals": "Medals",
+    "statistics": "Statistics",
+    "venues": "Venues",
+    "about": "About"
+  },
+  "footer": {
+    "copyright": "© 2028 Olympic Games. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "environment": {
+    "development": "Development",
+    "staging": "Staging",
+    "production": "Production",
+    "test": "Test"
+  }
+} 

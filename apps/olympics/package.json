@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "medals",
   "version": "0.0.1",
   "type": "module",
   "private": true,
@@ -29,7 +29,7 @@
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
     "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.3.1",
+    "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.12",
     "@types/node": "^20",

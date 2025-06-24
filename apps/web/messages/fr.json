@@ -1,0 +1,54 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "export": "Exporter",
+    "language": "Langue",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "title": "Olympiques 2028",
+    "subtitle": "Bienvenue dans l'application multizone des Olympiques 2028",
+    "medalsTitle": "Tableau des Médailles",
+    "medalsDescription": "Voir et trier les médailles olympiques par pays avec des fonctionnalités interactives",
+    "statisticsTitle": "Statistiques",
+    "statisticsDescription": "Bientôt disponible - Statistiques olympiques détaillées et analyses",
+    "venuesTitle": "Lieux",
+    "venuesDescription": "Bientôt disponible - Lieux olympiques et informations sur les événements",
+    "architectureDescription": "Ceci est une application multizone Next.js avec architecture micro-frontend"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "medals": "Médailles",
+    "statistics": "Statistiques",
+    "venues": "Lieux",
+    "about": "À propos"
+  },
+  "footer": {
+    "copyright": "© Jeux Olympiques 2028. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "contact": "Nous Contacter"
+  },
+  "Index": {
+    "title": "Bienvenue aux Jeux Olympiques 2028",
+    "description": "Une application multizone Next.js présentant les médailles olympiques et plus",
+    "medals": {
+      "title": "Tableau des Médailles",
+      "description": "Voir et trier les médailles olympiques par pays et type"
+    }
+  },
+  "LanguageSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français"
+  }
+} 

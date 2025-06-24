@@ -1,0 +1,5 @@
+.flag-sprite {
+  background-image: url('/medals/flags.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+} 
