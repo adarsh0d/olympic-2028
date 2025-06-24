@@ -6,9 +6,11 @@ A modern multizone Next.js application showcasing Olympic medals with internatio
 
 This monorepo consists of:
 
-- **Web App** (`apps/web`): Main application with language switcher and environment configuration
-- **Medals App** (`apps/medals`): Standalone medals application with sorting, filtering, and internationalization
+- **Web App** (`apps/web`): Main application environment configuration
+- **Olympics App** (`apps/olympics`): Olympics application with medals feature, internationalization, and environment-aware configuration
 - **UI Package** (`packages/ui`): Shared components used across both apps
+- **ESLint Config** (`packages/eslint-config`): Shared ESLint configuration
+- **TypeScript Config** (`packages/typescript-config`): Shared TypeScript configuration
 
 ## Environment Configuration
 
@@ -95,7 +97,7 @@ pnpm test:coverage
 - Shared loading and error states
 - Responsive design
 
-### Medals App (`apps/medals`)
+### Olympics App (`apps/olympics`)
 - Olympic medals table with sorting
 - Country flag rendering using sprite sheet
 - Internationalization support
@@ -117,22 +119,22 @@ olympic-2028/
 │   │   ├── app/               # Next.js app directory
 │   │   ├── config/            # Environment and i18n config
 │   │   ├── messages/          # Translation files
-│   │   ├── middleware.ts      # Multizone and i18n middleware
-│   │   └── env.*             # Environment files
-│   └── medals/                # Medals application
-│       ├── app/(medals)/      # Route group
-│       │   ├── components/    # Medals-specific components
-│       │   ├── hooks/         # Custom hooks
-│       │   ├── services/      # API services
-│       │   ├── utils/         # Utility functions
-│       │   ├── data/          # Static data
-│       │   └── api/           # API routes
+│   │   ├── components/        # Shared/layout components
+│   │   └── env.*              # Environment files
+│   └── olympics/              # Olympics application (includes medals feature)
+│       ├── app/               # Next.js app directory
+│       │   └── (medals)/      # Medals route group
+│       │       └── medals/    # Medals feature (components, hooks, services, utils, data, api)
+│       ├── config/            # Environment and i18n config
+│       ├── messages/          # Translation files
 │       └── __tests__/         # Test files
 ├── packages/
-│   └── ui/                    # Shared UI components
-│       ├── src/components/    # Reusable components
-│       ├── src/config/        # Shared configuration
-│       └── src/styles/        # Global styles
+│   ├── ui/                    # Shared UI components
+│   │   ├── src/components/    # Reusable components
+│   │   ├── src/config/        # Shared configuration
+│   │   └── src/styles/        # Global styles
+│   ├── eslint-config/         # Shared ESLint configuration
+│   └── typescript-config/     # Shared TypeScript configuration
 └── package.json               # Root package.json
 ```
 
@@ -143,7 +145,7 @@ Both apps support multiple languages:
 - Spanish (es) 
 - French (fr)
 
-Translation files are located in `apps/web/messages/` and `apps/medals/messages/`.
+Translation files are located in `apps/web/messages/` and `apps/olympics/messages/`.
 
 ## Deployment
 
