@@ -1,0 +1,54 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "language": "Language",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Olympic 2028",
+    "subtitle": "Welcome to the Olympic 2028 multizone application",
+    "medalsTitle": "Medals Table",
+    "medalsDescription": "View and sort Olympic medals by country with interactive features",
+    "statisticsTitle": "Statistics",
+    "statisticsDescription": "Coming soon - Detailed Olympic statistics and analytics",
+    "venuesTitle": "Venues",
+    "venuesDescription": "Coming soon - Olympic venues and event information",
+    "architectureDescription": "This is a multizone Next.js application with micro-frontend architecture"
+  },
+  "navigation": {
+    "home": "Home",
+    "medals": "Medals",
+    "statistics": "Statistics",
+    "venues": "Venues",
+    "about": "About"
+  },
+  "footer": {
+    "copyright": "© 2028 Olympic Games. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "Index": {
+    "title": "Welcome to Olympic 2028",
+    "description": "A multizone Next.js application showcasing Olympic medals and more",
+    "medals": {
+      "title": "Medals Table",
+      "description": "View and sort Olympic medals by country and type"
+    }
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français"
+  }
+} 

@@ -1,0 +1,54 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "export": "Exporter",
+    "language": "Langue",
+    "settings": "Paramètres"
+  },
+  "medals": {
+    "title": "Tableau des Médailles Olympiques",
+    "description": "Cliquez sur les en-têtes de colonnes pour trier par type de médaille. Le tri par défaut est par médailles d'or en ordre décroissant.",
+    "rank": "Rang",
+    "country": "Pays",
+    "gold": "Or",
+    "silver": "Argent",
+    "bronze": "Bronze",
+    "total": "Total",
+    "sortBy": "Trier par {type}",
+    "sortDirection": {
+      "asc": "croissant",
+      "desc": "décroissant"
+    },
+    "noData": "Aucune donnée de médailles disponible",
+    "loadingMessage": "Chargement des données de médailles olympiques...",
+    "errorMessage": "Erreur lors de la récupération des données de médailles. Veuillez réessayer plus tard.",
+    "retryMessage": "Cliquez pour réessayer le chargement des données de médailles"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "medals": "Médailles",
+    "statistics": "Statistiques",
+    "venues": "Lieux",
+    "about": "À propos"
+  },
+  "footer": {
+    "copyright": "© Jeux Olympiques 2028. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "contact": "Nous Contacter"
+  },
+  "environment": {
+    "development": "Développement",
+    "staging": "Mise en Étape",
+    "production": "Production",
+    "test": "Test"
+  }
+} 
