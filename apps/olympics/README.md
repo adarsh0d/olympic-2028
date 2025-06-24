@@ -69,5 +69,77 @@ pnpm test:olympics
 - `table/page.tsx` – Medals table page
 - `types.ts` – TypeScript types
 
+
+
+---
+
+## **How to Test Request Parameters in the Medals Application**
+
+The medals table page supports URL query parameters for sorting and other features. You can test these by modifying the URL in your browser.
+
+---
+
+### **1. Sorting by Medal Type**
+
+You can sort the medals table by different medal types using the `sort` parameter in the URL.
+
+- **Gold (default):**
+  ```
+  http://localhost:3001/medals/table?sort=gold
+  ```
+- **Silver:**
+  ```
+  http://localhost:3001/medals/table?sort=silver
+  ```
+- **Bronze:**
+  ```
+  http://localhost:3001/medals/table?sort=bronze
+  ```
+- **Total:**
+  ```
+  http://localhost:3001/medals/table?sort=total
+  ```
+
+---
+
+### **2. Sorting Direction**
+
+If your app supports sorting direction (ascending/descending), you may also use a `direction` parameter:
+
+- **Ascending:**
+  ```
+  http://localhost:3001/medals/table?sort=gold&direction=asc
+  ```
+- **Descending:**
+  ```
+  http://localhost:3001/medals/table?sort=gold&direction=desc
+  ```
+
+---
+
+### **3. Testing in the Browser**
+
+1. **Start the Olympics app:**
+   ```bash
+   pnpm --filter apps/olympics dev
+   ```
+2. **Open your browser and navigate to the medals table page.**
+3. **Manually edit the URL** in the address bar to include the desired query parameters (as shown above).
+4. **Observe the table:**  
+   - The table should update to reflect the sorting you specified in the URL.
+   - You can also click the column headers to change the sort, and the URL should update accordingly.
+
+---
+
+### **5. Resetting to Default**
+
+To reset to the default view, simply remove the query parameters:
+
+```
+http://localhost:3001/medals/table
+```
+
+
+
 ## License
 MIT 
